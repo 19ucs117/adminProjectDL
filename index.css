@@ -14,7 +14,10 @@
 .img{
   margin: -11%;
 }
-
+@media(max-width: 967px)
+  {
+    background-size: 14% 14%;
+} 
 
 /* Safari */
 @-webkit-keyframes spin {
