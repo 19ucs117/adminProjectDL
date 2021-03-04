@@ -16,7 +16,10 @@
 }
 @media(max-width: 967px)
   {
-    background-size: 14% 14%;
+    .img{
+      background-size: 14% 14%;
+    }
+    
 } 
 
 /* Safari */
