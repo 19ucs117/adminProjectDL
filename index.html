@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap-iso.css">
+    <link rel="stylesheet" href="dashforge-iso.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="fontawesome.js"></script>
+    <!-- CSS only -->
+
+  </head>
+  <body bgcolor="#696969">
+    <div class="bootstrap-iso">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <img src="login.jpg" height="100%" width="100%" alt="no image found">
+          </div>
+
+          <div class="col-sm-4" >
+            <div class="logo" style="height: 100px;width: 100%; background-color:black;margin-bottom: 10px; margin-top: 10px;">
+
+            </div>
+            <div class="wd-100p">
+              <div id="error_alert"></div>
+              <h3 class="mg-b-5 tx-center" style="color: white;">Sign In</h3>
+              <div class="alert alert-success" role="alert">
+                <b>Warning:</b>
+                For security reasons, kindly reset your password using
+                <b>"Reset Password"</b>
+                option. You won't be able to login without resetting your password.
+              </div>
+              <div class="input-icons">
+                <form name="myForm" method="post" action="index.php">
+                  <div class="form-group">
+                    <label class="tx-light" style="color: white;">User Name</label>
+
+                    <input type="text" class="form-control input-field" placeholder="user name" style="background-color: #21201f;color: white" name="uname" required="">
+                  </div>
+                  <div class="form-group">
+                    <div class="d-flex justify-content-between mg-b-5">
+                      <label class="mg-b-0-f" style="color: white;">Password</label>
+                      <a href="reset.html" class="tx-13 tx-white">
+                        <i class="fa fa-lock"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Reset Password
+                      </a>
+                    </div>
+
+                    <input type="password" autocomplete="off" class="form-control input-field" placeholder="********" style="background-color: #21201f;color: white" name="pswd" required="">
+                  </div>
+                  <button type="submit" name="commit" class="btn btn-block" style="background-color: #01c8ee;">
+                    <span class="tx-bold">Sign In</span>
+                  </button>
+                </form>
+                <div class="error">
+
+                </div>
+              </div>
+              <p class="tx-16 mg-b-10 tx-center" style="color: white; padding:10px;">
+                For Any Queries: digiallibrary@loyolacollege.edu
+              </p>
+              <center>
+              <div style="padding:10px;background-color: #ffde59;color: #002147;border-radius: 10px;">
+                <b>
+                  <svg class="bi bi-bar-chart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="4" height="5" x="1" y="10" rx="1"></rect>
+                    <rect width="4" height="9" x="6" y="6" rx="1"></rect>
+                    <rect width="4" height="14" x="11" y="1" rx="1"></rect>
+                  </svg>
+                  &nbsp;&nbsp;Today's View Count:&nbsp;&nbsp; 1
+                </b>
+              </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
