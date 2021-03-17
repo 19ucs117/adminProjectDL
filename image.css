@@ -126,9 +126,6 @@ nav ul li a button:focus {
     margin-left: 20%;
   }
 
-}
-
-@media (max-width:650px) {
   img{
     width: 100%;
     height: 90% !important;
@@ -139,9 +136,6 @@ nav ul li a button:focus {
     margin-left: 10%;
   }
 
-}
-
-@media (max-width:600px) {
   img{
     width: 100%;
     height: auto !important;
@@ -184,49 +178,5 @@ nav ul li a button:focus {
     display: block;
   }
 
-
-}
-
-@media (max-width:500px) {
-  button{
-    display: none;
-  }
-
-  body{
-    background-color: #696969;
-  }
-
-
-  .bootstrap-iso .wd-100p {
-    width: 100%;
-    height: 100%;
-    margin-left: unset !important;
-  }
-
-  img{
-    width: 100%;
-    height: auto !important;
-  }
-
-  .bg-image{
-    filter: none;
-  }
-
-  .bg-text{
-    background: none;
-    border: 0px;
-    display: block;
-    align-items: center;
-    position: unset !important;
-  }
-
-  .bootstrap-iso .tx-light {
-    font-weight: 500;
-    margin-left: unset !important;
-  }
-
-  #loginForm{
-    display: block;
-  }
 
 }
